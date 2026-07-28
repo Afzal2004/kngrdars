@@ -844,3 +844,16 @@ background-position: center center;
     color: #ff0000;
     margin-right: 6px;
 }
+.qr-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.donation-qr {
+    width: 100%;
+    max-width: 180px;   /* Maximum size on desktop */
+    height: auto;
+    border-radius: 8px; /* Optional */
+}
